@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    color: blue;
+  }
+  
+  h2 {
+    color: blue;
+  }
+  
+  h3 {
+    text-align: center;
+    color: #A052CB;
+  }
+  
+  .category_img {
+    font-style: oblique;
+    text-align: center;
+  }
+  .category_img>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300;
+  }
+  
+  .category_img>img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  
+  
+  .books {
+    background-color : rgb(250,220,250);
+  }
+  
+  .movies {
+    background-color : rgb(250,220,250);
+  }
+
+  ul {
+    color : green ;
+  }
