@@ -1,42 +1,65 @@
 h1 {
-    text-align: center;
-    color: blue;
-  }
-  
-  h2 {
-    color: blue;
-  }
-  
-  h3 {
-    text-align: center;
-    color: #A052CB;
-  }
-  
-  .category_img {
-    font-style: oblique;
-    text-align: center;
-  }
-  .category_img>img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300;
-  }
-  
-  .category_img>img:hover {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-  }
-  
-  
-  .books {
-    background-color : rgb(250,220,250);
-  }
-  
-  .movies {
-    background-color : rgb(250,220,250);
-  }
+text-align: center;
+color: blue;
+}
 
-  ul {
-    color : green ;
-  }
+h2 {
+color: blue;
+}
+
+h3 {
+text-align: center;
+color: #A052CB;
+}
+
+nav{
+display:flex;
+flex-wrap:wrap;
+}
+
+nav>a {
+text-decoration: none;
+display:block;
+padding: 15px 25px;
+text-align: center;
+background-color: rgb(230, 230, 230);
+border-right: 2px solid white;
+color:#464141;
+margin:0;
+font-family:sans-serif;
+}
+
+nav>a:hover {
+background-color: #777777;
+color:#ffffff;
+}
+
+
+.category_img {
+  font-style: oblique;
+  text-align: center;
+}
+.category_img>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300;
+}
+
+.category_img>img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
+.books {
+  background-color : rgb(250,220,250);
+}
+
+.movies {
+  background-color : rgb(250,220,250);
+}
+
+ul {
+  color : green ;
+}

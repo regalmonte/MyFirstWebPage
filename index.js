@@ -1,2 +1,4 @@
-let name = 'Drew';
-console.log(name);
+
+function great(name, lastName) {
+    console.log('Hello, ' + name + ' ' + lastName);
+}
