@@ -1,10 +1,11 @@
 h1 {
 text-align: center;
-color: blue;
+color: #909ee0;
+text-shadow: 1px 1px blue;
 }
 
 h2 {
-color: blue;
+color: black;
 }
 
 h3 {
@@ -37,8 +38,9 @@ color:#ffffff;
 */
 nav {
   overflow: hidden;
-  background-color: #333;
+  background: linear-gradient(#f242f5, #1c0a1c); /* #333; */
   font-family: Arial;
+  box-shadow: 2px 2px #505050;
 }
 
 /* Links inside the navbar */
@@ -71,7 +73,7 @@ nav>a, .topnav-right>a {
 
 /* Add a red background color to navbar links on hover */
 nav>a:hover, .dropdown:hover .dropbtn, .topnav-right>a:hover {
-  background-color: blue;
+  background: linear-gradient(#d7d5e0, #615f69)/* blue; */
 }
 
 .topnav-right {
