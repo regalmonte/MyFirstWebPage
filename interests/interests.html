@@ -5,26 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>RejXInterests</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../assets/img/icon.png">
 </head>
 
 <body>
-    <div class="titlebar">
+    <header>
         <h1>Reg's Page of Interests</h1>
         <p>Welcome to <b><em>Reg</em></b>'s personal page. This contains random things and thoughts he likes to write
             and document, mostly about his <b>favorite <em>things</em>, <em>travels</em> and <em>stories</em> that
                 touched his heart.</b></p>
-    </div>
+    </header>
 
-    <div class="body">
+    <main>
         <h2>Reg's Top 5's!</h2>
         <p><b>Reg</b> likes to read <em>books</em>, listen to <em>music</em>, watch <em>movies</em> and <em>travel</em>.
             Here are her top 5's in those categories:</p>
         <br />
+        <nav>
+            <a href="#books">Books</a>
+            <a href="#music">Music Artists</a>
+            <a href="#movies">Movies</a>
+            <a href="#travel">Visited Places</a>
+            <div class="topnav-right">
+                <a href="../index.html">About</a>
+            </div>
+        </nav>
+        <a name="books"></a>
         <div class="books">
             <h3>Books</h3>
             <div class="category_img">
-                <img src="https://cdn.pixabay.com/photo/2016/02/16/21/07/books-1204029_960_720.jpg" width=300 alt="" />
+                <img src="https://cdn.pixabay.com/photo/2016/02/16/21/07/books-1204029_960_720.jpg" width=300
+                    alt="Image of books in shelves" />
                 <br />Image by <a
                     href="https://pixabay.com/users/LubosHouska-198496/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1204029">Lubos
                     Houska</a> from <a
@@ -67,11 +80,12 @@
                 <br />
             </div>
         </div>
+        <a name="music"></a>
         <div class="music">
             <h3>Music Artist</h3>
             <div class="category_img">
                 <img src="https://cdn.pixabay.com/photo/2016/04/19/05/07/turntable-1337986_960_720.jpg" width=300
-                    alt="" />
+                    alt="Image of a CD player with speakers, laptop, and a headphone" />
                 <br />Image by <a
                     href="https://pixabay.com/users/theglassdesk-149631/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1337986">Becca
                     Clark</a> from <a
@@ -89,11 +103,12 @@
                 <br />
             </div>
         </div>
+        <a name="movies"></a>
         <div class="movies">
             <h3>Movies</h3>
             <div class="category_img">
                 <img src="https://cdn.pixabay.com/photo/2016/12/28/17/54/columbus-1936633_960_720.jpg" width=300
-                    alt="" />
+                    alt="Image of a movie theater" />
                 <br />Image by <a
                     href="https://pixabay.com/users/12019-12019/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1936633">David
                     Mark</a> from <a
@@ -101,7 +116,8 @@
             </div>
             <div class="movie_body">
                 <br />
-                <table>
+                Table of movies:
+                <table border="true">
                     <tr>
                         <th>No.</th>
                         <th>Title</th>
@@ -142,11 +158,12 @@
                 <br />
             </div>
         </div>
+        <a name="travel"></a>
         <div class="travel">
             <h3>Visited Places</h3>
             <div class="category_img">
                 <img src="https://cdn.pixabay.com/photo/2016/01/19/15/48/luggage-1149289_960_720.jpg" width=300
-                    alt="" />
+                    alt="Image of a traveling bag" />
                 <br />Image by <a
                     href="https://pixabay.com/users/stux-12364/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1149289">Stefan
                     Schweihofer</a> from <a
@@ -154,7 +171,7 @@
             </div>
             <div Class="travel_body">
                 <br />
-                <table>
+                <table border="true">
                     <tr>
                         <th>No.</th>
                         <th>Country</th>
@@ -224,7 +241,15 @@
                 <br />
             </div>
         </div>
-    </div>
+    </main>
+    <a class="backLink" href="../index.html">Back</a>
+    <footer>
+        <hr>
+        <br><br>
+        &copy;2020 by Rej<br>
+        <a href="../index.html">RejXGypsy</a>
+    </footer>
+    <script src='../index.js'></script>
 </body>
 
 </html>

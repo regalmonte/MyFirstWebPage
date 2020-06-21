@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>RejXTips</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../assets/img/icon.png">
+</head>
+
+<body>
+    <header>
+        <h1>Tables Experiment</h1>
+    </header>
+    <main>
+        <hr>
+        <div class="table_1">
+            <h4>Table 1: Simplest Table</h4>
+            <div class="bordered_div">
+                <table>
+                    <tr>
+                        <td>one</td>
+                        <td>two</td>
+                        <td>three</td>
+                    </tr>
+                    <tr>
+                        <td>four</td>
+                        <td>five</td>
+                        <td>six</td>
+                    </tr>
+                    <tr>
+                        <td>seven</td>
+                        <td>eight</td>
+                        <td>nine</td>
+                    </tr>
+                </table>
+            </div>
+            <br>Code:<br>
+            <textarea id="table1_code" rows="5" cols="55" readonly></textarea>
+        </div>
+        <hr>
+        <div class="table_2">
+            <h4>Table 2: Simple Table With Header</h4>
+            <div class="bordered_div">
+                <table>
+                    <tr>
+                        <th>Row 1</th>
+                        <th>Row 2</th>
+                        <th>Row 3</th>
+                    </tr>
+                    <tr>
+                        <td>one</td>
+                        <td>two</td>
+                        <td>three</td>
+                    </tr>
+                    <tr>
+                        <td>four</td>
+                        <td>five</td>
+                        <td>six</td>
+                    </tr>
+                    <tr>
+                        <td>seven</td>
+                        <td>eight</td>
+                        <td>nine</td>
+                    </tr>
+                </table>
+            </div>
+            <br>Code:<br>
+            <textarea id="table2_code" rows="6" cols="55" readonly></textarea>
+        </div>
+        <hr>
+        <div class="table_3">
+            <h4>Table 3: Table With Header, Row Span, and <i>Border</i></h4>
+            <div class="bordered_div">
+                <table border="1">
+                    <tr>
+                        <th>Child's Name</th>
+                        <th>Parent's Name</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Catherine</td>
+                        <td>Michael McCarthy</td>
+                    </tr>
+                    <tr>
+                        <td>Colleen McCarthy</td>
+                    </tr>
+                    <tr>
+                        <td>Maggie</td>
+                        <td>Sheila McGee</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Edward</td>
+                        <td>Catherine Howard</td>
+                    </tr>
+                    <tr>
+                        <td>Jeff Howard</td>
+                    </tr>
+                </table>
+                <caption>Sample Table <em>caption</em></caption>
+            </div>
+            <br>Code:<br>
+            <textarea id="table3_code" rows="16" cols="69" readonly></textarea>
+        </div>
+    </main>
+    <a class="backLink" href="tips.html">Back</a>
+    <footer>
+        <br><br>
+        <hr>
+        &copy;2020 by Rej<br>
+        <a href="../index.html">RejXGypsy</a>
+    </footer>
+    <script src='tips.js'></script>
+</body>
+
+</html>

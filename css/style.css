@@ -1,42 +1,167 @@
 h1 {
-    text-align: center;
-    color: blue;
-  }
-  
-  h2 {
-    color: blue;
-  }
-  
-  h3 {
-    text-align: center;
-    color: #A052CB;
-  }
-  
-  .category_img {
-    font-style: oblique;
-    text-align: center;
-  }
-  .category_img>img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300;
-  }
-  
-  .category_img>img:hover {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-  }
-  
-  
-  .books {
-    background-color : rgb(250,220,250);
-  }
-  
-  .movies {
-    background-color : rgb(250,220,250);
-  }
+text-align: center;
+color: #909ee0;
+text-shadow: 1px 1px blue;
+}
 
-  ul {
-    color : green ;
-  }
+h2 {
+color: black;
+}
+
+h3 {
+text-align: center;
+color: #A052CB;
+}
+
+/*
+nav{
+display:flex;
+flex-wrap:wrap;
+}
+
+nav>a {
+text-decoration: none;
+display:block;
+padding: 15px 25px;
+text-align: center;
+background-color: rgb(230, 230, 230);
+border-right: 2px solid white;
+color:#464141;
+margin:0;
+font-family:sans-serif;
+}
+
+nav>a:hover {
+background-color: #777777;
+color:#ffffff;
+}
+*/
+nav {
+  overflow: hidden;
+  background: linear-gradient(#f242f5, #1c0a1c); /* #333; */
+  font-family: Arial;
+  box-shadow: 2px 2px #505050;
+}
+
+/* Links inside the navbar */
+nav>a, .topnav-right>a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+nav>a:hover, .dropdown:hover .dropbtn, .topnav-right>a:hover {
+  background: linear-gradient(#d7d5e0, #615f69)/* blue; */
+}
+
+.topnav-right {
+  float: right;
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.category_img {
+  font-style: oblique;
+  text-align: center;
+}
+.category_img>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300;
+}
+
+.category_img>img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
+.books {
+  background-color : rgb(250,220,250);
+}
+
+.movies {
+  background-color : rgb(250,220,250);
+}
+
+ul {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px
+}
+
+footer {
+position: relative;
+padding-bottom: 10px;
+top: 30px;
+}
+
+.backLink{
+  position: relative;
+  top: 20px;
+}
+
+.warningText {
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+
+.bordered_div {
+  width: 250px;
+  padding: 20px;
+  border-width:1px;
+  border-style:solid;
+  border-color:black;
+}

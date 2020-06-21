@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>RejXTips</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../assets/img/icon.png">
+    <script src='../index.js'></script>
+</head>
+
+<body>
+    <header>
+        <h1>Media Experiments</h1>
+    </header>
+    <br>
+    <hr><br>
+    <main>
+        <div class="video_exp" align="center">
+            <h3>Video Experiment</h3>
+            <video src="assets/sample_vid_shallow.mp4" width="400" controls loop>
+                Your browser does not support the <code>video</code> element
+            </video>
+        </div>
+        <br>
+        <hr><br>
+        <div class="audio_exp">
+            <h3>Audio Experiment</h3>
+            <ul>
+                <li> Normal audio settings <br>
+                    <div align="center">
+                        <audio src="assets/sample_audio_magdalena.mp3" controls loop>
+                            ANCA Pop - Magdalena
+                        </audio>
+                    </div>
+                </li>
+                <li>Starts at 6.9s.
+                    <div align="center">
+                        <audio src="assets/sample_audio_magdalena.mp3#t=6.9" controls>
+                            ANCA Pop - Magdalena
+                        </audio>
+                    </div>
+                </li>
+                <li>Autoplay at 43.25s to 51.5s.
+                    <div align="center">
+                        <audio src="assets/sample_audio_magdalena.mp3#t=43.25,51.5" controls autoplay>
+                            ANCA Pop - Magdalena
+                        </audio>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <a class="backLink" href="../tips/tips.html">Back</a>
+    <footer>
+        <br><br>
+        &copy;2020 by Rej<br>
+        <a href="../index.html">RejXGypsy</a>
+    </footer>
+    <script src='../index.js'></script>
+</body>
+
+</html>
