@@ -1,16 +1,47 @@
-h1 {
-text-align: center;
-color: #909ee0;
-text-shadow: 1px 1px blue;
+html {
+  font-family: serif, sans-serif, "Times New Roman";
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #ddd;
+}
+
+main{
+  margin: 10px;
+}
+
+h1, h2, h3 {
+  color: rgb(220, 210, 224);
+  font-style: normal;
+}
+
+h1, h3 {
+  text-align: center;
 }
 
 h2 {
-color: black;
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing: 10px;
 }
 
-h3 {
-text-align: center;
-color: #A052CB;
+.toc {
+  font-size: 15px;
+  line-height: 2em;
+  color: white;
+}
+
+a {
+  text-decoration: underline;
+  font-size: 16px;
+  color:lightblue; /*rgb(240, 216, 250); */
+  text-transform: capitalize;
+}
+
+.WebIdeas > ul {
+  font-size: 16px;
+  line-height: 1.5em;
 }
 
 /*
@@ -38,7 +69,7 @@ color:#ffffff;
 */
 nav {
   overflow: hidden;
-  background: linear-gradient(#f242f5, #1c0a1c); /* #333; */
+  background: linear-gradient(#f242f5, #4b284b); /* #333; */
   font-family: Arial;
   box-shadow: 2px 2px #505050;
 }
@@ -140,9 +171,11 @@ ul {
 }
 
 footer {
-position: relative;
-padding-bottom: 10px;
-top: 30px;
+  display: block;
+  margin-top: auto;
+  color: antiquewhite;
+  position: relative;
+  top: 30px;
 }
 
 .backLink{
