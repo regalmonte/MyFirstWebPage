@@ -90,6 +90,14 @@ ul.topnav li.dropdownIcon {
     background: linear-gradient(#076dff, #65a5ff);
 }
 
+div.leftSide-col {
+    margin-left: 30%;
+}
+
+div.rightSide-col {
+    margin-left: 10%;
+}
+
 h1.large {
     color: white;
     font-size: 56px;
@@ -97,15 +105,26 @@ h1.large {
     line-height: 1.25em;
 }
 
+form h2 {
+    color: white;
+}
+
 input[type="text"]{
     font-size: 20px;
     width: 400px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7px;
 }
 
 input[type="password"]{
     font-size: 20px;
     width: 400px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7px;
 }
+
 
 /* ############### Mobile ############### */
 @media screen and (max-width: 680px) {
@@ -136,5 +155,32 @@ input[type="password"]{
     ul.topnav.responsive li a {
         display: block;
         text-align: left;
+    }
+
+    .col-6 {
+        width: 100%;
+        margin: 0;
+        /* padding-top: 1em;
+        padding-bottom: 1em; */
+    }
+
+    div.leftSide-col,
+    div.rightSide-col {
+        margin: 15%;
+    }
+
+    input[type="text"] {
+        width: 350px;
+    }
+
+    input[type="password"] {
+        width: 350px;
+    }
+
+    .videoContainer > iframe {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
     }
 }
